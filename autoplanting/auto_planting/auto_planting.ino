@@ -57,7 +57,7 @@ void water_check()
 void pump_start()
 {
   digitalWrite(PUMP, HIGH); // sets the digital pin on
-  delay(1000);            // waits for a second
+  delay(5000);            // waits for a second
   digitalWrite(PUMP, LOW);  // sets the digital pin off
   delay(5000);            // waits for a second
 }
